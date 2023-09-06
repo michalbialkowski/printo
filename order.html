@@ -77,51 +77,276 @@
             </section>
             <section class="pb--50">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-auto">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5 class="mb-0">Województwa</h5>
+                    <form>
+                        <div class="row flex-nowrap">
+                            <div class="col-4">
+                                <div class="row gx-0 gy-4 flex-column">
+                                    <div class="col">
+                                        <div class="row gx-3 align-items-center">
+                                            <div class="col-auto"><img></div>
+                                            <div class="col">
+                                                <h4 class="mb-0">Wizytówki standardowe</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="row gx-0 gy-4 flex-column">
+                                            <div class="col">
+                                                <h6>Format</h6>
+                                                <div class="row gy-2 row-cols-4">
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">85 x 55 mm</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2"><label class="form-check-label" for="formCheck-2">90 x 50 mm</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-3"><label class="form-check-label" for="formCheck-3">65 x 65 mm</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-4"><label class="form-check-label" for="formCheck-4">85 x25 mm</label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <h6>Papier</h6>
+                                                <div class="row gy-2 row-cols-2">
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-5"><label class="form-check-label" for="formCheck-5">Kreda mat 350 g</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Keadykolour Snow White 300 g</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-7"><label class="form-check-label" for="formCheck-7">X-Per Premium White 320 g</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-8"><label class="form-check-label" for="formCheck-8">Egotic Indigo Pet White Matt 491 g</label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <h6>Kolorystyka</h6>
+                                                <div class="row row-cols-2">
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-9"><label class="form-check-label" for="formCheck-9">Label</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-10"><label class="form-check-label" for="formCheck-10">Label</label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <h6>Uszlachetnienia</h6>
+                                                <div class="row gx-0 gy-3 flex-column">
+                                                    <div class="col"><select class="form-select">
+                                                            <option value="">Wybierz rodzaj foliowania…</option>
+                                                            <optgroup label="Folia Soft Touch">
+                                                                <option value="" selected="">Folia Soft Touch - Przód 1/0</option>
+                                                                <option value="">Folia Soft Touch - Dwustronnie 1/1</option>
+                                                            </optgroup>
+                                                        </select></div>
+                                                    <div class="col"><select class="form-select">
+                                                            <option value="">Wybierz rodzaj lakierowania…</option>
+                                                        </select></div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <h6>Zaokrąglenia</h6>
+                                                <div class="row gy-2 row-cols-4">
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-11"><label class="form-check-label" for="formCheck-11">Brak zaokrągleń</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-12"><label class="form-check-label" for="formCheck-12">2 narożniki</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-13"><label class="form-check-label" for="formCheck-13">4 narożniki</label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <h6>Dziurkowanie</h6><select class="form-select">
+                                                    <option value="">Wybierz…</option>
+                                                    <option value="" selected="">Uszlachetnienia</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="list-group list-group-flush"><a class="list-group-item list-group-item-action"><span>Dolnośląskie</span></a><a class="list-group-item list-group-item-action"><span>Kujawsko-pomorskie</span></a><a class="list-group-item list-group-item-action"><span>Lubelskie</span></a><a class="list-group-item list-group-item-action"><span>Lubuskie</span></a><a class="list-group-item list-group-item-action"><span>Łódzkie</span></a><a class="list-group-item list-group-item-action"><span>Małopolskie</span></a><a class="list-group-item list-group-item-action"><span>Mazowieckie</span></a><a class="list-group-item list-group-item-action"><span>Opolskie</span></a><a class="list-group-item list-group-item-action"><span>Podkarpackie</span></a><a class="list-group-item list-group-item-action"><span>Podlaskie</span></a><a class="list-group-item list-group-item-action"><span>Pomorskie</span></a><a class="list-group-item list-group-item-action"><span>Śląskie</span></a><a class="list-group-item list-group-item-action"><span>Świętokrzyskie</span></a><a class="list-group-item list-group-item-action"><span>Warmińsko-mazurskie</span></a><a class="list-group-item list-group-item-action"><span>Wielkopolskie</span></a><a class="list-group-item list-group-item-action"><span>Zachodniopomorskie</span></a></div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="row gx-0 gy-4 flex-column">
-                                <div class="col"></div>
-                                <div class="col">
-                                    <div class="row gx-0 gy-4 flex-column">
-                                        <div class="col">
-                                            <div class="row">
-                                                <div class="col-auto"><span class="fs-1 fw-bold">A</span></div>
-                                                <div class="col">
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <div class="card border-0">
-                                                                <div class="card-body p-0">
-                                                                    <div class="row gx-3 align-items-center">
-                                                                        <div class="col-auto"><img></div>
-                                                                        <div class="col">
-                                                                            <h5>Aampuls Serwis</h5>
-                                                                            <h6 class="text-muted mb-2">Drukarnia, Poznań</h6>
-                                                                        </div>
+                            <div class="col-4">
+                                <div class="row gx-0 gy-4 flex-column">
+                                    <div class="col">
+                                        <h6>Wybierz nakład i wykonawcę</h6>
+                                        <div class="row gy-2 align-items-center">
+                                            <div class="col-auto"><input class="form-control form-control-sm" type="text" placeholder="Własny nakład…"></div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-14"><label class="form-check-label" for="formCheck-14">50</label></div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-16"><label class="form-check-label" for="formCheck-16">100</label></div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-15"><label class="form-check-label" for="formCheck-15">200</label></div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-22"><label class="form-check-label" for="formCheck-22">500</label></div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-21"><label class="form-check-label" for="formCheck-21">1000</label></div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-20"><label class="form-check-label" for="formCheck-20">2000</label></div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-19"><label class="form-check-label" for="formCheck-19">3000</label></div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-18"><label class="form-check-label" for="formCheck-18">4000</label></div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-17"><label class="form-check-label" for="formCheck-17">5000</label></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-auto">
+                                                <div class="row">
+                                                    <div class="col"><select class="form-select">
+                                                            <option value="">Lokalizacja…</option>
+                                                        </select></div>
+                                                    <div class="col"><select class="form-select">
+                                                            <option value="">Czas realizacji</option>
+                                                        </select></div>
+                                                    <div class="col"><select class="form-select">
+                                                            <option value="">Dostawa…</option>
+                                                        </select></div>
+                                                    <div class="col"><button class="btn btn-primary" type="button">Filtry</button></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto"><select class="form-select">
+                                                    <option value="">Sortowanie…</option>
+                                                </select></div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="row gx-0 gy-4 flex-column">
+                                                    <div class="col">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div class="row align-items-center">
+                                                                    <div class="col-auto"><img></div>
+                                                                    <div class="col"><small class="d-block">Drukarnia, Poznań</small>
+                                                                        <h6>Chroma</h6>
+                                                                        <ul class="list-inline mb-0">
+                                                                            <li class="list-inline-item">90%</li>
+                                                                            <li class="list-inline-item">4.5</li>
+                                                                            <li class="list-inline-item">0,00 zł</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <ul class="list-unstyled">
+                                                                            <li>87,00 zł / 0.45 zł / szt</li>
+                                                                            <li>Wysyłka: cz 18.11 (zamów dziś do 12:00)</li>
+                                                                        </ul>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col"></div>
-                                                        <div class="col"></div>
                                                     </div>
+                                                    <div class="col"></div>
+                                                    <div class="col"></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col"></div>
-                                        <div class="col"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Twoje zamówienie</h4>
+                                        <div class="row gx-0 gy-3 flex-column">
+                                            <div class="col">
+                                                <h6 class="mb-0">Wizytówki standardowe</h6>
+                                            </div>
+                                            <div class="col">
+                                                <div>
+                                                    <table class="table table-sm mb-0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Nakład</td>
+                                                                <td class="text-end">100 szt.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Format</td>
+                                                                <td class="text-end">85 x 55 mm</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Papier</td>
+                                                                <td class="text-end">Kreda mat 350 g</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Kolorystyka</td>
+                                                                <td class="text-end">Kolor dwustronnie (4/4)</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Uszlachetnienia</td>
+                                                                <td class="text-end">Folia Soft Touch, Przód 1/0</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div>
+                                                    <table class="table table-sm mb-0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Kwota produktu</td>
+                                                                <td class="text-end">100 szt.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Kwota dostawy</td>
+                                                                <td class="text-end">85 x 55 mm</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div>
+                                                    <table class="table table-sm mb-0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>cena netto</td>
+                                                                <td class="text-end">260,00 zł</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>cena brutto</td>
+                                                                <td class="text-end">319.80 zł</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="col"><button class="btn btn-primary w-100 rounded-pill" type="button">Dodaj do koszyka</button></div>
+                                            <div class="col">
+                                                <ul class="list-unstyled mb-0">
+                                                    <li><a href="#!">Skopiuj link z kalkulacją</a></li>
+                                                    <li><a href="#!">Jak przygotować plik do druku?</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </section>
         </main>

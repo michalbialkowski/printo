@@ -24422,3 +24422,23 @@ body.compensate-for-scrollbar {
     max-width: 1210px;
   }
 }
+
+.container-narrow-sm {
+  max-width: 540px;
+}
+
+.container-narrow-md {
+  max-width: 720px;
+}
+
+.container-narrow-lg {
+  max-width: 960px;
+}
+
+.container-narrow-xl {
+  max-width: 1140px;
+}
+
+.container-narrow-xxl {
+  max-width: 1320px;
+}
