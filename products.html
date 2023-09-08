@@ -7,7 +7,7 @@
     <title>printo</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=d41d8cd98f00b204e9800998ecf8427e">
     <link rel="stylesheet" href="https://use.typekit.net/tje4nwi.css">
-    <link rel="stylesheet" href="assets/css/style.compiled.css?h=607b84b2d2015bbf5aba23e08fd8807a">
+    <link rel="stylesheet" href="assets/css/style.compiled.css?h=88318fbe240b7d5ee50c46bc8794f003">
 </head>
 
 <body class="bg-cols">
@@ -75,7 +75,7 @@
                     </ol>
                 </div>
             </section>
-            <section class="bg-light-subtle py-4">
+            <section class="py-5 bg-lightblue">
                 <div class="container container-narrow-md">
                     <h1 class="mb-3">Jaki produkt dziś wybierasz?</h1>
                     <form>
@@ -87,21 +87,33 @@
             </section>
             <section class="py-4">
                 <div class="container container-narrow-xxl">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-auto">
-                            <ul class="list-inline mb-0">
-                                <li class="list-inline-item"><span class="badge bg-primary rounded-pill">Wydruki</span></li>
-                                <li class="list-inline-item"><span class="badge bg-primary rounded-pill">Reklama zewnętrzna</span></li>
-                                <li class="list-inline-item"><span class="badge bg-primary rounded-pill">Fotografia</span></li>
-                                <li class="list-inline-item"><span class="badge bg-primary rounded-pill">Handmade</span></li>
-                            </ul>
-                        </div>
-                        <div class="col-auto">
-                            <div class="dropdown"><button class="btn btn-primary btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">Sortowanie</button>
-                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    <form>
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-auto">
+                                <div class="row gx-2">
+                                    <div class="col-auto">
+                                        <div class="form-check form-check-pill form-check-pill-sm"><input class="form-check-input" type="radio" id="formCheck-1" name="category" checked=""><label class="form-check-label" for="formCheck-1">Wydruki</label></div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="form-check form-check-pill form-check-pill-sm"><input class="form-check-input" type="radio" id="formCheck-6" name="category"><label class="form-check-label" for="formCheck-6">Reklama zewnętrzna</label></div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="form-check form-check-pill form-check-pill-sm"><input class="form-check-input" type="radio" id="formCheck-5" name="category"><label class="form-check-label" for="formCheck-5">Fotografia</label></div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="form-check form-check-pill form-check-pill-sm"><input class="form-check-input" type="radio" id="formCheck-4" name="category"><label class="form-check-label" for="formCheck-4">Handmade</label></div>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="col-auto"><select class="form-select form-select-sm form-select-pill">
+                                    <option value="">Sortowanie…</option>
+                                    <optgroup label="Alfabetycznie">
+                                        <option value="1">Alfabetycznie: A-Z</option>
+                                        <option value="2">Alfabetycznie: Z-A</option>
+                                    </optgroup>
+                                </select></div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </section>
             <section class="pb--50">

@@ -10582,7 +10582,7 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-pill, .form-check.form-check-pill label {
+.rounded-pill, .form-check.form-check-pill label, .form-select.form-select-pill {
   border-radius: var(--bs-border-radius-pill) !important;
 }
 
@@ -15549,6 +15549,10 @@ body {
   background-color: #eff7fd;
   border-color: #333ef1;
   color: #333ef1;
+}
+.form-select.form-select-pill {
+  background-color: #eff7fd;
+  border-color: transparent;
 }
 
 @media (max-width: 991.98px) {
