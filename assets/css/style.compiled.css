@@ -8702,7 +8702,7 @@ textarea.form-control-lg {
   overflow: auto !important;
 }
 
-.overflow-hidden {
+.overflow-hidden, .thumbnail {
   overflow: hidden !important;
 }
 
@@ -10570,7 +10570,7 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius-lg) !important;
 }
 
-.rounded-4 {
+.rounded-4, .thumbnail {
   border-radius: var(--bs-border-radius-xl) !important;
 }
 
