@@ -8932,11 +8932,11 @@ textarea.form-control-lg {
   transform: translateY(-50%) !important;
 }
 
-.border, .form-check.form-check-pill label, .form-check.form-check-badge label {
+.border, .thumbnail, .form-check.form-check-pill label, .form-check.form-check-badge label {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
 
-.border-0 {
+.border-0, .card.card-menu .card-header, .card.card-menu {
   border: 0 !important;
 }
 
@@ -8972,7 +8972,7 @@ textarea.form-control-lg {
   border-left: 0 !important;
 }
 
-.border-primary, .form-check.form-check-pill input[type=radio]:checked + label,
+.border-primary, .thumbnail:hover, .form-check.form-check-pill input[type=radio]:checked + label,
 .form-check.form-check-pill input[type=checkbox]:checked + label, .form-check.form-check-badge input[type=radio]:checked + label,
 .form-check.form-check-badge input[type=checkbox]:checked + label {
   --bs-border-opacity: 1;
@@ -9065,7 +9065,7 @@ textarea.form-control-lg {
   border-width: 1px !important;
 }
 
-.border-2, .form-check.form-check-pill label, .form-check.form-check-badge label {
+.border-2, .thumbnail, .form-check.form-check-pill label, .form-check.form-check-badge label {
   border-width: 2px !important;
 }
 
@@ -9721,7 +9721,7 @@ textarea.form-control-lg {
   padding: 3rem !important;
 }
 
-.px-0 {
+.px-0, .card.card-menu .list-group .list-group-item, .card.card-menu .card-header {
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
@@ -9741,7 +9741,7 @@ textarea.form-control-lg {
   padding-left: 1rem !important;
 }
 
-.px-4 {
+.px-4, .card.card-menu {
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
 }
@@ -9766,7 +9766,7 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem !important;
 }
 
-.py-3 {
+.py-3, .card.card-menu {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
@@ -10449,7 +10449,7 @@ textarea.form-control-lg {
 
 .bg-lightblue, .form-check.form-check-pill input[type=radio]:checked + label,
 .form-check.form-check-pill input[type=checkbox]:checked + label, .form-check.form-check-pill label, .form-check.form-check-badge input[type=radio]:checked + label,
-.form-check.form-check-badge input[type=checkbox]:checked + label {
+.form-check.form-check-badge input[type=checkbox]:checked + label, .card.card-menu {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-lightblue-rgb), var(--bs-bg-opacity)) !important;
 }
@@ -10459,7 +10459,7 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-transparent {
+.bg-transparent, .card.card-menu .list-group .list-group-item, .card.card-menu .card-header {
   --bs-bg-opacity: 1;
   background-color: transparent !important;
 }
@@ -15538,7 +15538,7 @@ body {
     max-width: 1820px;
   }
 }
-.border-transparent, .form-check.form-check-pill label {
+.border-transparent, .thumbnail, .form-check.form-check-pill label {
   border-color: transparent !important;
 }
 
@@ -15553,6 +15553,12 @@ body {
 .form-select.form-select-pill {
   background-color: #eff7fd;
   border-color: transparent;
+}
+
+.img-thumbnail {
+  padding: 0;
+  object-fit: cover;
+  object-position: center center;
 }
 
 @media (max-width: 991.98px) {
