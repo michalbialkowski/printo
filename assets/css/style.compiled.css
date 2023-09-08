@@ -8365,11 +8365,11 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(255, 255, 255, var(--bs-link-underline-opacity, 1)) !important;
 }
 
-.link-black, .breadcrumb .breadcrumb-item a, .breadcrumb .breadcrumb-item span {
+.link-black, .links-black a, .breadcrumb .breadcrumb-item a, .breadcrumb .breadcrumb-item span {
   color: RGBA(var(--bs-black-rgb), var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-black-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
-.link-black:hover, .breadcrumb .breadcrumb-item a:hover, .breadcrumb .breadcrumb-item span:hover, .link-black:focus, .breadcrumb .breadcrumb-item a:focus, .breadcrumb .breadcrumb-item span:focus {
+.link-black:hover, .links-black a:hover, .breadcrumb .breadcrumb-item a:hover, .breadcrumb .breadcrumb-item span:hover, .link-black:focus, .links-black a:focus, .breadcrumb .breadcrumb-item a:focus, .breadcrumb .breadcrumb-item span:focus {
   color: RGBA(0, 0, 0, var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(0, 0, 0, var(--bs-link-underline-opacity, 1)) !important;
 }
