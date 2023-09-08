@@ -8702,7 +8702,7 @@ textarea.form-control-lg {
   overflow: auto !important;
 }
 
-.overflow-hidden, .thumbnail, .input-group.input-group-bordered {
+.overflow-hidden, .thumbnail, .input-group.input-group-pill {
   overflow: hidden !important;
 }
 
@@ -8778,7 +8778,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex, body > .page, .input-group.input-group-bordered button.btn {
+.d-flex, body > .page, .input-group.input-group-pill button.btn {
   display: flex !important;
 }
 
@@ -8932,11 +8932,11 @@ textarea.form-control-lg {
   transform: translateY(-50%) !important;
 }
 
-.border, .thumbnail, .form-check.form-check-pill label, .form-check.form-check-badge label, .input-group.input-group-bordered {
+.border, .thumbnail, .form-check.form-check-pill label, .form-check.form-check-badge label {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
 
-.border-0, .input-group.input-group-bordered input.form-control, .card.card-menu .card-header, .card.card-menu {
+.border-0, .input-group.input-group-pill input.form-control, .card.card-menu .card-header, .card.card-menu {
   border: 0 !important;
 }
 
@@ -9221,7 +9221,7 @@ textarea.form-control-lg {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, .input-group.input-group-bordered button.btn {
+.justify-content-center, .input-group.input-group-pill button.btn {
   justify-content: center !important;
 }
 
@@ -9245,7 +9245,7 @@ textarea.form-control-lg {
   align-items: flex-end !important;
 }
 
-.align-items-center, .input-group.input-group-bordered button.btn {
+.align-items-center, .input-group.input-group-pill button.btn {
   align-items: center !important;
 }
 
@@ -9701,11 +9701,11 @@ textarea.form-control-lg {
   padding: 0 !important;
 }
 
-.p-1, .input-group.input-group-bordered {
+.p-1, .input-group.input-group-pill {
   padding: 0.25rem !important;
 }
 
-.p-2 {
+.p-2, .input-group.input-group-pill.input-group-lg {
   padding: 0.5rem !important;
 }
 
@@ -10582,7 +10582,7 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-pill, .form-check.form-check-pill label, .input-group.input-group-bordered button.btn, .input-group.input-group-bordered, .form-select.form-select-pill {
+.rounded-pill, .form-check.form-check-pill label, .input-group.input-group-pill button.btn, .input-group.input-group-pill, .form-select.form-select-pill {
   border-radius: var(--bs-border-radius-pill) !important;
 }
 
