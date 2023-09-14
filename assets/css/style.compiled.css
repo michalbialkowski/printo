@@ -8417,11 +8417,11 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(26, 30, 33, var(--bs-link-underline-opacity, 1)) !important;
 }
 
-.link-white {
+.link-white, header.header-dark section .nav a, header.header-dark section .logo {
   color: RGBA(var(--bs-white-rgb), var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-white-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
-.link-white:hover, .link-white:focus {
+.link-white:hover, header.header-dark section .nav a:hover, header.header-dark section .logo:hover, .link-white:focus, header.header-dark section .nav a:focus, header.header-dark section .logo:focus {
   color: RGBA(255, 255, 255, var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(255, 255, 255, var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -10486,7 +10486,7 @@ textarea.form-control-lg {
   --bs-link-underline-opacity: 1;
 }
 
-.bg-primary, .section_main_hero {
+.bg-primary, .section_main_hero, header.header-dark section {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
