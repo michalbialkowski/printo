@@ -8848,7 +8848,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex, .section_header_menu > div .accordion .accordion-item .accordion-body > .row > *, .price, .btn.btn-icon, body > .page, .input-group.input-group-pill button.btn {
+.d-flex, .section_header_menu > div .accordion .accordion-item .accordion-body > .row > *, .rating, .price, .btn.btn-icon, body > .page, .input-group.input-group-pill button.btn {
   display: flex !important;
 }
 
@@ -9324,7 +9324,7 @@ textarea.form-control-lg {
   align-items: flex-end !important;
 }
 
-.align-items-center, .btn.btn-icon, .input-group.input-group-pill button.btn {
+.align-items-center, .rating, .btn.btn-icon, .input-group.input-group-pill button.btn {
   align-items: center !important;
 }
 
@@ -9546,7 +9546,7 @@ textarea.form-control-lg {
   margin-right: 0 !important;
 }
 
-.me-1, .price > span {
+.me-1 {
   margin-right: 0.25rem !important;
 }
 
@@ -9602,11 +9602,13 @@ textarea.form-control-lg {
   margin-left: 0 !important;
 }
 
-.ms-1 {
+.ms-1, .small .rating > span,
+.rating.small > span,
+.rating.rating-sm > span, .price > small, .price > .small {
   margin-left: 0.25rem !important;
 }
 
-.ms-2, .btn.btn-icon > span {
+.ms-2, .rating > span, .btn.btn-icon > span {
   margin-left: 0.5rem !important;
 }
 
@@ -10036,11 +10038,11 @@ textarea.form-control-lg {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
 
-.fs-2, .price {
+.fs-2 {
   font-size: calc(1.325rem + 0.9vw) !important;
 }
 
-.fs-3 {
+.fs-3, .price {
   font-size: calc(1.3rem + 0.6vw) !important;
 }
 
@@ -10048,7 +10050,7 @@ textarea.form-control-lg {
   font-size: calc(1.275rem + 0.3vw) !important;
 }
 
-.fs-5, .price > small, .price > .small {
+.fs-5, .price.price-sm, .price > small, .price > .small {
   font-size: 1.25rem !important;
 }
 
@@ -10072,7 +10074,7 @@ textarea.form-control-lg {
   font-weight: 300 !important;
 }
 
-.fw-normal {
+.fw-normal, .rating.fw-normal, .price > small + small, .price > .small + small, .price > small + .small, .price > .small + .small {
   font-weight: 400 !important;
 }
 
@@ -10080,7 +10082,7 @@ textarea.form-control-lg {
   font-weight: 500 !important;
 }
 
-.fw-semibold, .price {
+.fw-semibold, .rating, .price {
   font-weight: 600 !important;
 }
 
@@ -10159,7 +10161,7 @@ textarea.form-control-lg {
 }
 
 /* rtl:end:remove */
-.text-primary, .price, .form-check.form-check-pill input[type=radio]:checked + label,
+.text-primary, .rating, .price, .form-check.form-check-pill input[type=radio]:checked + label,
 .form-check.form-check-pill input[type=checkbox]:checked + label, .form-check.form-check-badge input[type=radio]:checked + label,
 .form-check.form-check-badge input[type=checkbox]:checked + label {
   --bs-text-opacity: 1;
@@ -10206,7 +10208,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-black {
+.text-black, .price > small + small, .price > .small + small, .price > small + .small, .price > .small + .small {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
@@ -15547,10 +15549,10 @@ textarea.form-control-lg {
   .fs-1 {
     font-size: 2.5rem !important;
   }
-  .fs-2, .price {
+  .fs-2 {
     font-size: 2rem !important;
   }
-  .fs-3 {
+  .fs-3, .price {
     font-size: 1.75rem !important;
   }
   .fs-4 {
@@ -27766,6 +27768,16 @@ body.compensate-for-scrollbar {
 body > .page {
   min-height: 100vh;
 }
+.price.price-sm > small, .price.price-sm > .small {
+  font-size: 0.875rem !important;
+}
+
+.small .rating > span,
+.rating.small > span,
+.rating.rating-sm > span {
+  font-size: 0.875em;
+}
+
 .section_header_menu {
   z-index: 1000;
 }
