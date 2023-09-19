@@ -325,7 +325,7 @@ strong {
   font-weight: bolder;
 }
 
-small, .small {
+small, .small, .time.time-sm {
   font-size: 0.875em;
 }
 
@@ -8824,7 +8824,7 @@ textarea.form-control-lg {
   display: inline-block !important;
 }
 
-.d-block, .form-check.form-check-pill label, .form-check.form-check-badge label {
+.d-block, .time > span > *, .time > span, .form-check.form-check-pill label, .form-check.form-check-badge label {
   display: block !important;
 }
 
@@ -8848,7 +8848,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex, .section_header_menu > div .accordion .accordion-item .accordion-body > .row > *, .rating, .price, .btn.btn-icon, body > .page, .input-group.input-group-pill button.btn {
+.d-flex, .section_header_menu > div .accordion .accordion-item .accordion-body > .row > *, .time, .rating, .price, .btn.btn-icon, body > .page, .input-group.input-group-pill button.btn {
   display: flex !important;
 }
 
@@ -8930,7 +8930,7 @@ textarea.form-control-lg {
   position: static !important;
 }
 
-.position-relative, .section_header_menu {
+.position-relative, .section_header_menu, .time > svg {
   position: relative !important;
 }
 
@@ -9272,7 +9272,7 @@ textarea.form-control-lg {
   flex-grow: 1 !important;
 }
 
-.flex-shrink-0 {
+.flex-shrink-0, .time > svg, .btn.btn-icon > svg {
   flex-shrink: 0 !important;
 }
 
@@ -9328,7 +9328,7 @@ textarea.form-control-lg {
   align-items: center !important;
 }
 
-.align-items-baseline {
+.align-items-baseline, .time {
   align-items: baseline !important;
 }
 
@@ -9602,13 +9602,13 @@ textarea.form-control-lg {
   margin-left: 0 !important;
 }
 
-.ms-1, .small .rating > span,
+.ms-1, .time.time-sm > span, .small .rating > span, .time.time-sm .rating > span,
 .rating.small > span,
-.rating.rating-sm > span, .price > small, .price > .small {
+.rating.rating-sm > span, .price > small, .price > .small, .price > .time.time-sm, .btn.btn-icon.btn-sm > span, .btn-group-sm > .btn.btn-icon > span {
   margin-left: 0.25rem !important;
 }
 
-.ms-2, .rating > span, .btn.btn-icon > span {
+.ms-2, .time > span, .rating > span, .btn.btn-icon > span {
   margin-left: 0.5rem !important;
 }
 
@@ -10050,7 +10050,7 @@ textarea.form-control-lg {
   font-size: calc(1.275rem + 0.3vw) !important;
 }
 
-.fs-5, .price.price-sm, .price > small, .price > .small {
+.fs-5, .price.price-sm, .price > small, .price > .small, .price > .time.time-sm {
   font-size: 1.25rem !important;
 }
 
@@ -10074,7 +10074,7 @@ textarea.form-control-lg {
   font-weight: 300 !important;
 }
 
-.fw-normal, .rating.fw-normal, .price > small + small, .price > .small + small, .price > small + .small, .price > .small + .small {
+.fw-normal, .rating.fw-normal, .price > small + small, .price > .small + small, .price > .time.time-sm + small, .price > small + .small, .price > small + .time.time-sm, .price > .small + .small, .price > .time.time-sm + .small, .price > .small + .time.time-sm, .price > .time.time-sm + .time.time-sm {
   font-weight: 400 !important;
 }
 
@@ -10208,7 +10208,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-black, .price > small + small, .price > .small + small, .price > small + .small, .price > .small + .small {
+.text-black, .price > small + small, .price > .small + small, .price > .time.time-sm + small, .price > small + .small, .price > small + .time.time-sm, .price > .small + .small, .price > .time.time-sm + .small, .price > .small + .time.time-sm, .price > .time.time-sm + .time.time-sm {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
@@ -24859,11 +24859,11 @@ body {
   font-weight: 900 !important;
 }
 
-.line-height-none, .price {
+.line-height-none {
   line-height: 1;
 }
 
-.line-height-small {
+.line-height-small, .price {
   line-height: 1.15;
 }
 
@@ -27768,16 +27768,20 @@ body.compensate-for-scrollbar {
 body > .page {
   min-height: 100vh;
 }
-.price.price-sm > small, .price.price-sm > .small {
+.price.price-sm > small, .price.price-sm > .small, .price.price-sm > .time.time-sm {
   font-size: 0.875rem !important;
 }
 
-.small .rating > span,
+.small .rating > span, .time.time-sm .rating > span,
 .rating.small > span,
+.rating.time.time-sm > span,
 .rating.rating-sm > span {
   font-size: 0.875em;
 }
 
+.time > svg {
+  top: 3px;
+}
 .section_header_menu {
   z-index: 1000;
 }
