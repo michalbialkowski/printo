@@ -8862,7 +8862,7 @@ textarea.form-control-lg {
   display: none !important;
 }
 
-.shadow, .section_header_menu > div .accordion .accordion-item .accordion-body {
+.shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -10666,7 +10666,7 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius-lg) !important;
 }
 
-.rounded-4, .section_header_menu > div .accordion .accordion-item .accordion-body, .thumbnail {
+.rounded-4, .thumbnail {
   border-radius: var(--bs-border-radius-xl) !important;
 }
 
